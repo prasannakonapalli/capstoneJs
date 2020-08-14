@@ -1,0 +1,74 @@
+/* table,
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+
+#myTable {
+  height: 400px;
+  width: 400px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+} */
+
+.subtotals{
+	background-color: #00ffff;
+	border: 2px solid black !important;;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+#myTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myTable td,
+#myTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#myTable tr:hover {
+  background-color: #ddd;
+}
+
+#myTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+#myCheckoutTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myCheckoutTable td,
+#myCheckoutTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#myCheckoutTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #800040;
+  color: white;
+}
